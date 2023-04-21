@@ -15,3 +15,8 @@ function tabella(){
     }
     divTabella.innerHTML = stampFinale;
 }
+
+function casella(numeroCasella){
+    document.getElementById(`casella${numeroCasella}`).className += " evidenziato";
+    console.log(numeroCasella);
+}
