@@ -14,6 +14,7 @@ function tabella(){
         nCasella += 10;
     }
     divTabella.innerHTML = stampFinale;
+    stampFinale = "";
 }
 
 function casella(numeroCasella){
