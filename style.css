@@ -1,7 +1,30 @@
 body{
-    background-color: blanchedalmond;
+    background-color: #7FFFD4;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+    background-color: #fff;
+}
+header img{
+    width: 100px;
+    height: auto;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+#btn_diff_function{
+    gap: 3px;
+    padding-right: .5em;
+}
+#btn_diff_function button{
+    padding: 0 2em;
 }
 #div_tabella{
     align-self: center;
@@ -23,5 +46,12 @@ body{
     justify-content: center;
 }
 .evidenziato{
-    background-color: aqua;
+    background-color: azure;
+}
+footer{
+    background-color: #fff;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
