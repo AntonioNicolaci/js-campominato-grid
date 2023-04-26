@@ -1,9 +1,10 @@
 const divTabella = document.getElementById("div_tabella");
-const altezzaLunghezza = 10; // TODO: bisogna cambiarlo con il valore del selector;
-let stampFinale = "";
 
 function tabella(){
     let nCasella = 0;
+    const altezzaLunghezza = document.getElementById("diff").value;
+    let stampFinale = "";
+
     for(let i = 0; altezzaLunghezza > i; i++){
         stampFinale += `<div class="riga">`;
         for(let j = 0; altezzaLunghezza > j; j++){
@@ -14,7 +15,6 @@ function tabella(){
         nCasella += 10;
     }
     divTabella.innerHTML = stampFinale;
-    stampFinale = "";
 }
 
 function casella(numeroCasella){
